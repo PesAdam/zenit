@@ -1,0 +1,88 @@
+@import 'general';
+
+
+header{
+    background: url('../img/banner-bg.jpg') no-repeat;
+    height: 100%; 
+    width: 110%;
+    
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        color: $white;
+        padding-top: 10px;
+        .logo{
+            float: left;
+            margin-top: 15px;
+            h2{
+                display: inline;
+            }
+            h3{
+                display: inline;
+            }
+        }
+        .menu{
+            margin-left: 250px;
+            li{
+                float: left;
+                padding: 7px 10px 0 10px;
+            }
+        }
+        .register{
+            display: flex;
+            li{
+                .button{
+                    border: 1.5px solid $white;
+                    background-color: transparent;
+                    width: 120px;
+                    height: 40px;
+                    color: $white;
+                    margin-right: 10px;
+                    margin-top: -4px;
+                    &:hover{
+                        background-color: $hoverColor;
+                    }
+                }
+            }
+        }
+    }
+    .header-content{
+        text-align: center;
+        color: $white;
+        margin: 10%;
+        form{
+            .hladaj{
+                background: transparent;
+                color: $white;
+                border: 2px solid $white;
+                width: 50%;
+                height: 45px;
+            }
+            button{
+                background-color: $lightBlue;
+                color: $white;
+                border: 2px solid $lightBlue;
+                height: 47px;
+                width: 120px;
+            }
+        }
+        h2{
+            font-size: 40px;
+            margin-top: 40px;
+            margin-bottom: 65px;
+        }
+        .header-content-bottom{
+            padding: 10px;
+            span{
+                color: $white;
+                font-size: 14px;
+                margin-right: 40px;
+                padding: 0 10px 0 10px;
+            }
+        }
+    }
+}
+.border{
+    border-bottom: 1px solid $textGray;
+}

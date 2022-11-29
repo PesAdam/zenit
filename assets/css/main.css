@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  max-width: 1440px;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.sluzby {
+  max-width: 990px;
+  padding-top: 50px;
+  margin: auto;
+}
+.sluzby small {
+  color: #00BCD4;
+  font-size: 15px;
+}
+.sluzby .boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.sluzby .boxes .box {
+  background-color: #F7F7F7;
+  text-align: center;
+  padding: 40px;
+}
+.sluzby .boxes .box i {
+  font-size: 34px;
+  text-align: center;
+  margin-top: 34px;
+  color: #fff;
+}
+.sluzby .boxes .box .bg-blue {
+  background-color: #00BCD4;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+}
+.sluzby .boxes .box h2 {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.konfiguracia {
+  margin-top: 40px;
+  background: url("../img/pricing-bg.jpg") no-repeat;
+  width: 99vw;
+  color: #fff;
+  text-align: center;
+}
+.konfiguracia h1 {
+  padding-top: 60px;
+}
+.konfiguracia p {
+  font-size: 14px;
+}
+.konfiguracia .boxes {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  place-items: center;
+  color: #1E1E1E;
+}
+.konfiguracia .boxes .box {
+  background-color: #fff;
+  width: 310px;
+}
+.konfiguracia .boxes .box h2 {
+  padding-top: 10px;
+  font-size: 17px;
+}
+.konfiguracia .boxes .box .price {
+  background-color: #00A4B9;
+  width: 65%;
+  padding: 10px;
+  color: #fff;
+  margin: auto;
+}
+.konfiguracia .boxes .box .price h2 {
+  font-size: 24px;
+}
+.konfiguracia .boxes .box ul {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #6A6A6A;
+  width: 85%;
+  margin: auto;
+}
+.konfiguracia .boxes .box ul li {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

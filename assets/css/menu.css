@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  max-width: 1440px;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background: url("../img/banner-bg.jpg") no-repeat;
+  height: 100%;
+  width: 110%;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding-top: 10px;
+}
+header nav .logo {
+  float: left;
+  margin-top: 15px;
+}
+header nav .logo h2 {
+  display: inline;
+}
+header nav .logo h3 {
+  display: inline;
+}
+header nav .menu {
+  margin-left: 250px;
+}
+header nav .menu li {
+  float: left;
+  padding: 7px 10px 0 10px;
+}
+header nav .register {
+  display: flex;
+}
+header nav .register li .button {
+  border: 1.5px solid #fff;
+  background-color: transparent;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  margin-right: 10px;
+  margin-top: -4px;
+}
+header nav .register li .button:hover {
+  background-color: #00A4B9;
+}
+header .header-content {
+  text-align: center;
+  color: #fff;
+  margin: 10%;
+}
+header .header-content form .hladaj {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 50%;
+  height: 45px;
+}
+header .header-content form button {
+  background-color: #00BCD4;
+  color: #fff;
+  border: 2px solid #00BCD4;
+  height: 47px;
+  width: 120px;
+}
+header .header-content h2 {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+header .header-content .header-content-bottom {
+  padding: 10px;
+}
+header .header-content .header-content-bottom span {
+  color: #fff;
+  font-size: 14px;
+  margin-right: 40px;
+  padding: 0 10px 0 10px;
+}
+
+.border {
+  border-bottom: 1px solid #6A6A6A;
+}/*# sourceMappingURL=menu.css.map */
