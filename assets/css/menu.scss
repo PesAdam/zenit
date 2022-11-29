@@ -2,19 +2,21 @@
 
 
 header{
-    background: url('../img/banner-bg.jpg') no-repeat;
-    height: 100%; 
-    width: 110%;
     
+    background: url('../img/banner-bg.jpg') no-repeat;
+    background-size: 100vw;
+    height: 100%; 
+    
+
     nav{
         width: 100%;
         display: flex;
         justify-content: space-around;
         color: $white;
-        padding-top: 10px;
+        padding-top: 0.521vw;
         .logo{
             float: left;
-            margin-top: 15px;
+            margin-top: 0.781vw;
             h2{
                 display: inline;
             }
@@ -23,23 +25,23 @@ header{
             }
         }
         .menu{
-            margin-left: 250px;
+            margin-left: 13.021vw;
             li{
                 float: left;
-                padding: 7px 10px 0 10px;
+                padding: 0.365vw 0.521vw 0 0.521vw;
             }
         }
         .register{
             display: flex;
             li{
                 .button{
-                    border: 1.5px solid $white;
+                    border: 0.078vw solid $white;
                     background-color: transparent;
-                    width: 120px;
-                    height: 40px;
+                    width: 6.250vw;
+                    height: 2.083vw;
                     color: $white;
-                    margin-right: 10px;
-                    margin-top: -4px;
+                    margin-right: 0.521vw;
+                    margin-top: -0.208vw;
                     &:hover{
                         background-color: $hoverColor;
                     }
@@ -55,34 +57,34 @@ header{
             .hladaj{
                 background: transparent;
                 color: $white;
-                border: 2px solid $white;
+                border: 0.104vw solid $white;
                 width: 50%;
-                height: 45px;
+                height: 2.344vw;
             }
             button{
                 background-color: $lightBlue;
                 color: $white;
-                border: 2px solid $lightBlue;
-                height: 47px;
-                width: 120px;
+                border: 0.104vw solid $lightBlue;
+                height: 2.448vw;
+                width: 6.250vw;
             }
         }
         h2{
-            font-size: 40px;
-            margin-top: 40px;
-            margin-bottom: 65px;
+            font-size: 2.083vw;
+            margin-top: 2.083vw;
+            margin-bottom: 3.385vw;
         }
         .header-content-bottom{
-            padding: 10px;
+            padding: 0.521vw;
             span{
                 color: $white;
-                font-size: 14px;
-                margin-right: 40px;
-                padding: 0 10px 0 10px;
+                font-size: 0.729vw;
+                margin-right: 2.083vw;
+                padding: 0 0.521vw 0 0.521vw;
             }
         }
     }
 }
 .border{
-    border-bottom: 1px solid $textGray;
+    border-bottom: 0.052vw solid $textGray;
 }

@@ -1,98 +1,191 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-  max-width: 1440px;
-  font-family: "Roboto", sans-serif;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
-}
+  font-size: 0.833vw; }
 
 ul {
-  list-style: none;
-}
+  list-style: none; }
 
 .sluzby {
-  max-width: 990px;
-  padding-top: 50px;
+  max-width: 57.552vw;
   margin: auto;
-}
-.sluzby small {
-  color: #00BCD4;
-  font-size: 15px;
-}
-.sluzby .boxes {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-}
-.sluzby .boxes .box {
-  background-color: #F7F7F7;
-  text-align: center;
-  padding: 40px;
-}
-.sluzby .boxes .box i {
-  font-size: 34px;
-  text-align: center;
-  margin-top: 34px;
-  color: #fff;
-}
-.sluzby .boxes .box .bg-blue {
-  background-color: #00BCD4;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin: auto;
-}
-.sluzby .boxes .box h2 {
-  font-size: 20px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+  padding: 5.208vw; }
+  .sluzby small {
+    color: #00BCD4;
+    font-size: 0.781vw; }
+  .sluzby h1 {
+    margin-top: 0.521vw;
+    margin-bottom: 2.604vw; }
+  .sluzby p {
+    margin-top: 2.604vw;
+    margin-bottom: 2.604vw;
+    color: #6A6A6A; }
+  .sluzby .boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.042vw;
+    margin: auto;
+    place-content: center; }
+    .sluzby .boxes .box {
+      background-color: #F7F7F7;
+      text-align: center;
+      width: 14.583vw;
+      padding: 2.083vw; }
+      .sluzby .boxes .box i {
+        font-size: 1.771vw;
+        text-align: center;
+        margin-top: 1.771vw;
+        color: #fff; }
+      .sluzby .boxes .box .bg-blue {
+        background-color: #00BCD4;
+        width: 5.208vw;
+        height: 5.208vw;
+        border-radius: 50%;
+        margin: auto; }
+      .sluzby .boxes .box h2 {
+        font-size: 1.042vw;
+        margin-top: 2.083vw;
+        margin-bottom: 2.083vw; }
+      .sluzby .boxes .box p {
+        line-height: 1.250vw; }
 
 .konfiguracia {
-  margin-top: 40px;
+  margin-top: 2.083vw;
   background: url("../img/pricing-bg.jpg") no-repeat;
+  background-size: 100vw;
   width: 99vw;
   color: #fff;
+  text-align: center; }
+  .konfiguracia h1 {
+    padding-top: 3.125vw; }
+  .konfiguracia p {
+    font-size: 0.729vw;
+    margin-bottom: 4.167vw; }
+  .konfiguracia .boxes {
+    display: grid;
+    width: 50vw;
+    place-content: center;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.083vw;
+    place-items: center;
+    color: #1E1E1E; }
+    .konfiguracia .boxes .box {
+      background-color: #fff;
+      width: 17.188vw;
+      height: 33.854vw;
+      border: 0.5px solid #c3c2c2; }
+      .konfiguracia .boxes .box h2 {
+        padding-top: 0.521vw;
+        font-size: 0.885vw;
+        margin-bottom: 1.042vw;
+        margin-top: 1.042vw; }
+      .konfiguracia .boxes .box .price {
+        background-color: #00A4B9;
+        width: 75%;
+        height: 4.688vw;
+        padding: 0.521vw;
+        color: #fff;
+        margin: auto; }
+        .konfiguracia .boxes .box .price h2 {
+          font-size: 1.250vw;
+          margin-top: 0.208vw; }
+      .konfiguracia .boxes .box p {
+        margin-top: 1.563vw; }
+      .konfiguracia .boxes .box ul {
+        margin-top: 2.604vw;
+        padding-top: 1.042vw;
+        border-top: 0.052vw solid #f5f5f5;
+        width: 85%;
+        margin: auto; }
+        .konfiguracia .boxes .box ul li {
+          text-align: left;
+          height: 1.563vw; }
+          .konfiguracia .boxes .box ul li i {
+            color: #7202BB; }
+      .konfiguracia .boxes .box button {
+        position: relative;
+        top: 5.208vw;
+        background-color: none;
+        height: 2.604vw;
+        background-color: #00BCD4;
+        color: #fff;
+        border: none;
+        width: 50%; }
+        .konfiguracia .boxes .box button:hover {
+          background-color: #7202BB; }
+
+.napisali {
+  background-color: #F7F7F7;
+  margin-top: 3.646vw;
   text-align: center;
-}
-.konfiguracia h1 {
-  padding-top: 60px;
-}
-.konfiguracia p {
-  font-size: 14px;
-}
-.konfiguracia .boxes {
-  margin-top: 50px;
+  padding-top: 2.604vw;
+  padding-bottom: 2.604vw; }
+  .napisali small {
+    color: #00BCD4;
+    font-size: 0.729vw;
+    font-weight: 600; }
+  .napisali h2 {
+    font-size: 1.250vw;
+    margin-top: 1.042vw;
+    margin-bottom: 2.604vw; }
+  .napisali .icon {
+    background-color: #7202BB;
+    width: 2.604vw;
+    height: 2.604vw;
+    margin: auto;
+    border-radius: 50%; }
+    .napisali .icon i {
+      margin-top: 0.885vw;
+      color: #fff; }
+  .napisali p {
+    width: 40.625vw;
+    text-align: center;
+    color: #6A6A6A;
+    padding: 2.604vw;
+    margin: auto; }
+  .napisali h4 {
+    font-size: 1.042vw; }
+  .napisali .bodky {
+    font-size: 2.865vw;
+    color: #00BCD4;
+    opacity: .5; }
+
+footer {
+  background: url("../img/footer-bg.jpg") no-repeat;
+  background-size: 100vw;
+  color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 40px;
-  place-items: center;
-  color: #1E1E1E;
-}
-.konfiguracia .boxes .box {
-  background-color: #fff;
-  width: 310px;
-}
-.konfiguracia .boxes .box h2 {
-  padding-top: 10px;
-  font-size: 17px;
-}
-.konfiguracia .boxes .box .price {
-  background-color: #00A4B9;
-  width: 65%;
-  padding: 10px;
-  color: #fff;
-  margin: auto;
-}
-.konfiguracia .boxes .box .price h2 {
-  font-size: 24px;
-}
-.konfiguracia .boxes .box ul {
-  margin-top: 50px;
-  padding-top: 20px;
-  border-top: 1px solid #6A6A6A;
-  width: 85%;
-  margin: auto;
-}
-.konfiguracia .boxes .box ul li {
-  text-align: center;
-}/*# sourceMappingURL=main.css.map */
+  grid-gap: 4.167vw;
+  padding: 2.604vw; }
+  footer .left {
+    text-align: center; }
+    footer .left ul {
+      margin-left: 9.479vw; }
+      footer .left ul li {
+        height: 1.302vw;
+        text-align: left;
+        color: #F7F7F7;
+        font-weight: 200; }
+  footer .center {
+    text-align: left; }
+    footer .center p {
+      line-height: 1.250vw;
+      font-size: 0.729vw; }
+  footer .right {
+    text-align: left; }
+    footer .right h3 {
+      margin-left: 1.927vw; }
+    footer .right ul li {
+      height: 1.563vw; }
+  footer .border-bottom {
+    grid-column: 2;
+    border-top: 0.052vw solid #6A6A6A;
+    text-align: center;
+    padding-top: 2.604vw;
+    width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
