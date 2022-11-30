@@ -1,5 +1,13 @@
 @import 'general';
 
+.scroll{
+    background: $white;
+    color: $textGray;
+}
+
+.button_scrolled {
+    border: 1px solid black;
+}
 
 header{
     
@@ -14,8 +22,9 @@ header{
         color: $white;
         padding-top: 0.521vw;
         position: fixed;
-        top: 0;
+        top: 0vw;
         height: 4.167vw ;
+        z-index: 90;
         background: url('../img/banner-bg.jpg') no-repeat;
         .logo{
             float: left;

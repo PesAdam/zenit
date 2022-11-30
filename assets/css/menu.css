@@ -10,6 +10,15 @@ ul {
   list-style: none;
 }
 
+.scroll {
+  background: #fff;
+  color: #6A6A6A;
+}
+
+.button_scrolled {
+  border: 1px solid black;
+}
+
 header {
   background: url("../img/banner-bg.jpg") no-repeat;
   background-size: 100vw;
@@ -22,8 +31,9 @@ header nav {
   color: #fff;
   padding-top: 0.521vw;
   position: fixed;
-  top: 0;
+  top: 0vw;
   height: 4.167vw;
+  z-index: 90;
   background: url("../img/banner-bg.jpg") no-repeat;
 }
 header nav .logo {
