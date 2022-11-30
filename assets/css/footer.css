@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   overflow-x: hidden;
-  font-size: 0.833vw; }
+  font-size: 0.833vw;
+}
 
 ul {
-  list-style: none; }
-
-/*# sourceMappingURL=footer.css.map */
+  list-style: none;
+}/*# sourceMappingURL=footer.css.map */
