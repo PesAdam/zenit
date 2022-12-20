@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$white:  #fff;
+$lightBlue: #00BCD4;
+$textGray: #6A6A6A;
+$textBlack: #1E1E1E;
+$whiteSpace: #F7F7F7;
+$hoverColor: #00A4B9;
+$blue: #3264f5;
+$purple: #7202BB;
+
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    font-size: 0.833vw;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

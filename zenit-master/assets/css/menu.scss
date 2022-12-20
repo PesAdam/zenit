@@ -1,0 +1,111 @@
+@import 'general';
+
+.scroll{
+    background: $white;
+    color: $textGray;
+}
+
+.button_scrolled {
+    border: 1px solid black;
+}
+
+header{
+    background: url('../img/banner-bg.jpg') no-repeat;
+    background-size: 100vw;
+    height: 100%; 
+    
+    nav{
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        color: $white;
+        padding-top: 0.521vw;
+        position: fixed;
+        top: 0vw;
+        height: 4.167vw ;
+        z-index: 90;
+        background: url('../img/banner-bg.jpg') no-repeat;
+        background-size: 100vw;
+        .logo{
+            float: left;
+            margin-top: 0.781vw;
+            h2{
+                display: inline;
+            }
+            h3{
+                display: inline;
+            }
+        }
+        .menu{
+            margin-left: 13.021vw;
+            li{
+                float: left;
+                padding: 0.365vw 0.521vw 0 0.521vw;
+                &:hover{
+                    border-bottom: 0.069vw solid $textGray;
+                }
+                a{
+                    color: $white;
+                }
+            }
+        }
+        .register{
+            display: flex;
+            li{
+                .button{
+                    border: 0.078vw solid $white;
+                    background-color: transparent;
+                    width: 6.250vw;
+                    height: 2.083vw;
+                    color: $white;
+                    margin-right: 0.521vw;
+                    margin-top: -0.208vw;
+                    &:hover{
+                        background-color: $hoverColor;
+                    }
+                    a{
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    .header-content{
+        text-align: center;
+        color: $white;
+        padding: 10%;
+        form{
+            .hladaj{
+                background: transparent;
+                color: $white;
+                border: 0.104vw solid $white;
+                width: 50%;
+                height: 2.344vw;
+            }
+            button{
+                background-color: $lightBlue;
+                color: $white;
+                border: 0.104vw solid $lightBlue;
+                height: 2.448vw;
+                width: 6.250vw;
+            }
+        }
+        h2{
+            font-size: 2.083vw;
+            margin-top: 2.083vw;
+            margin-bottom: 3.385vw;
+        }
+        .header-content-bottom{
+            padding: 0.521vw;
+            span{
+                color: $white;
+                font-size: 0.729vw;
+                margin-right: 2.083vw;
+                padding: 0 0.521vw 0 0.521vw;
+            }
+        }
+    }
+}
+.border{
+    border-bottom: 0.052vw solid $textGray;
+}
