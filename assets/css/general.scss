@@ -14,8 +14,19 @@ body{
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     font-size: 0.833vw;
+    z-index: 2;
 }
 
 ul{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.thanos{
+    position: absolute;
+    z-index: -40;
 }

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,26 +7,48 @@
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/menu.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/keyframe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" integrity="sha512-3PN6gfRNZEX4YFyz+sIyTF6pGlQiryJu9NlGhu9LrLMQ7eDjNgudQoFDK3WSNAayeIKc6B8WXXpo4a7HqxjKwg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>ZenitCloud</title>
 </head>
-<body>
+<body id='w'>
     <header>
+        
+        <div id="confetti-wrapper">
+            <div class="cw "></div>
+            <div class="cw "></div>
+            <div class="cw "></div>
+            <div class="cw "></div>
+            <div class="cw "></div>
+            <div class="cw "></div>
+            <div class="cw "></div>
+            <div class="cw "></div>
+            <div class="cw "></div>
+            <div class="cw "></div>
+            <div class="cw "></div>
+            <div class="cw "></div>
+            <div class="cw "></div>
+        </div>
+        <img src="assets/img/thanos-dance.gif" class="thanos" id="thanos" style="text-align: center;" />
+        
+
         <nav class="border">
             <div class="logo">
                 <h2>ZENIT</h2>
                 <h3>CLOUD</h3>
             </div>
+            
+            
             <ul class="menu">
-                <li class="menu-item">Úvod</li>
+                <li class="menu-item"><a href="index.html">Úvod</a></li>
                 <li class="menu-item">O Nás</li>
                 <li class="menu-item">Služby</li>
                 <li class="menu-item">Kontakt</li>
             </ul>
             <ul class="register">
                 
-                    <li><button class="button" id="pes"  type="button">Prihlásiť</button></li>
-                    <li><button class="button" id="pes2" type="button">Registrovať</button></li>
+                <li><button class="button" id="pes"  type="button"><a href="prihlasenie.html">Prihlásiť</a></button></li>
+                <li><button class="button" id="pes2" type="button"><a href="registracia.html">Registrovať</a></button></li>
                 
             </ul>
         </nav>        
@@ -40,8 +63,12 @@
                     <input type="checkbox"><span><b>.com </b> (8$/yr)</span>
                 </div>
             </form>    
+            <button onclick="dropall()" class="tajnetlacitko"></button>
+            
         </div>
     </header>
+    
+    
     <main>
         <section class="sluzby">
             <small>Hostingové služby</small>
@@ -165,6 +192,8 @@
             <p class="border-bottom">Copyright &#169; 2022 Zenit Cloud Hosting Company</p>
         </footer>
     </main>
+
+    <script src="./assets/js/app.js"></script>
     
 </body>
 </html>
